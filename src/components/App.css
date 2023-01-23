@@ -2,6 +2,7 @@
     background-color: aqua;
 }
 
-.cantCarrito{
-    color: red;
+.greeting{
+    background-color: lightgreen;
+    text-decoration: line-through;
 }

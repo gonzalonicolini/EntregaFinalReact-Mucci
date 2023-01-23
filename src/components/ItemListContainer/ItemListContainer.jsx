@@ -5,10 +5,11 @@ import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 const ItemListContainer = (greeting) => {
     greeting = "Hola humano!"
     return (
-        <>
-            {greeting}     
+        <div className='greeting'>
+            {greeting}  
+            
         
-        </>
+        </div>
     );
 }
 

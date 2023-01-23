@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from "./Navbar/Navbar";
 import {ItemCount} from './ItemCount/ItemCount';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
-import CartWidget from './CartWidget/CartWidget';
+/* import CartWidget from './CartWidget/CartWidget'; */
 
 
 
