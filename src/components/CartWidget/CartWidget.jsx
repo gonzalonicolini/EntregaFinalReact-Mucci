@@ -6,9 +6,7 @@ const CartWidget = ({cantCarrito}) => {
     return (
         <>
             <button className="btn btn-primary"><FontAwesomeIcon icon={faCartPlus}/></button>            
-            {cantCarrito}
-            
-            
+            {cantCarrito}                        
         </>
     );
 }

@@ -1,8 +1,33 @@
-.divColor {
-    background-color: aqua;
+.cardProducto {
+    width: 8rem;
+    margin: 4px;
+    background-color: hsl(0, 0%, 97%);
 }
 
-.greeting{
-    background-color: lightgreen;
-    text-decoration: line-through;
+.cardBody {
+    background-color: white;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+img {
+    margin-top: 3px;
+    width: 300px;
+    margin: 5px;
+}
+
+.cardProductos {
+    margin:4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemDetail {
+    max-width: 540px;
+    margin-top: 20px;
+}
+.ItemListCont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }

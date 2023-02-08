@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "idCategoria": "Tortas-clasicas",
+        "nombre": "Chesecake",              
+        "precio": 10000,
+        "stock": 30,
+        "img": "cheesecake-cuad.jpeg"
+    },
+    {
+        "id": 2,
+        "idCategoria": "Tortas-clasicas",
+        "nombre": "Letter-Cake",
+        "precio": 12000,
+        "stock": 20,
+        "img": "letter-C-cuad.jpeg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "Tortas-clasicas",
+        "nombre": "Torta con golosinas-cuad.jpeg",
+        "precio": 57000,
+        "stock": 15,
+        "img": "Torta con golosinas-cuad.jpeg"
+    },
+    {
+        "id": 4,
+        "idCategoria": "Tiny",
+        "nombre": "Pabloba ",
+        "precio": 8000,
+        "stock": 30,
+        "img": "pabloba-tiny-cuad.jpeg"
+    },
+    {
+        "id": 5,
+        "idCategoria": "Tiny",
+        "nombre": "Brownie ",
+        "precio": 8000,
+        "stock": 30,
+        "img": "brownie-cuad.jpeg"
+    },
+    {
+        "id": 6,
+        "idCategoria": "Tiny",
+        "nombre": "Torre ",
+        "precio": 18000,
+        "stock": 20,
+        "img": "torre-cuad.jpeg"
+    },
+    {
+        "id": 7,
+        "idCategoria": "Individuales",
+        "nombre": "Alfajores ",
+        "precio": 300,
+        "stock": 100,
+        "img": "alfajores-2-cuad.jpeg"
+    },
+    {
+        "id": 8,
+        "idCategoria": "Individuales",
+        "nombre": "Conos",
+        "precio": 250,
+        "stock": 100,
+        "img": "mini-conos-cuad.jpeg"
+    },
+    {
+        "id": 9,
+        "idCategoria": "Individuales",
+        "nombre": "Lemon Pie",
+        "precio": 450,
+        "stock": 100,
+        "img": "ind-lemon-pie-1-cuad.jpeg"
+    },
+    {
+        "id": 10,
+        "idCategoria": "Boxes",
+        "nombre": "Box 3",
+        "precio": 1450,
+        "stock": 10,
+        "img": "box-3-cuad.jpeg"
+    },
+    {
+        "id": 11,
+        "idCategoria": "Boxes",
+        "nombre": "Box 4",
+        "precio": 1600,
+        "stock": 10,
+        "img": "box-4-cuad.jpeg"
+    },
+    {
+        "id": 12,
+        "idCategoria": "Boxes",
+        "nombre": "Box 5",
+        "precio": 2000,
+        "stock": 10,
+        "img": "box-5-cuad.jpeg"
+    }
+
+]
