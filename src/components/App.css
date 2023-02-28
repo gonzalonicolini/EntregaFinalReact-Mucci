@@ -26,3 +26,20 @@ img {
     max-width: 540px;
     margin-top: 20px;
 }
+
+.itemDetailBodyDark{
+    color:white;
+    background-color: black;
+}
+
+.darkMode{
+    background-color: black;
+    color: black;
+}
+
+.cardBodyDark {
+    background-color: hsl(0,0,33%) ;
+    margin-bottom: 3px;
+    text-align: center;
+    color: black;
+}
