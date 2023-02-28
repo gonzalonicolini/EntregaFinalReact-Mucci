@@ -18,8 +18,8 @@
     {
         "id": 3,
         "idCategoria": "Tortas-clasicas",
-        "nombre": "Torta con golosinas-cuad.jpeg",
-        "precio": 57000,
+        "nombre": "Torta con golosinas",
+        "precio": 17000,
         "stock": 15,
         "img": "Torta con golosinas-cuad.jpeg"
     },
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "idCategoria": "Boxes",
-        "nombre": "Box 3",
+        "nombre": "Box Oro",
         "precio": 1450,
         "stock": 10,
         "img": "box-3-cuad.jpeg"
@@ -82,7 +82,7 @@
     {
         "id": 11,
         "idCategoria": "Boxes",
-        "nombre": "Box 4",
+        "nombre": "Box Plata",
         "precio": 1600,
         "stock": 10,
         "img": "box-4-cuad.jpeg"
@@ -90,7 +90,7 @@
     {
         "id": 12,
         "idCategoria": "Boxes",
-        "nombre": "Box 5",
+        "nombre": "Box Bronce",
         "precio": 2000,
         "stock": 10,
         "img": "box-5-cuad.jpeg"

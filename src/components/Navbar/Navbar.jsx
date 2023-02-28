@@ -13,10 +13,7 @@ const Navbar = () => {
                     <Categorias/>
                 </ul>
                 <CartWidget cantCarrito={100}/>
-                
-                    
-                
-                
+        
         </nav>
     );
 }

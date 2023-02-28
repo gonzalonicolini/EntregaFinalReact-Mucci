@@ -1,19 +1,7 @@
 .cardProducto {
-    width: 8rem;
+    width: 18rem;
     margin: 4px;
-    background-color: hsl(0, 0%, 97%);
-}
-
-.cardBody {
-    background-color: white;
-    margin-bottom: 3px;
-    text-align: center;
-}
-
-img {
-    margin-top: 3px;
-    width: 300px;
-    margin: 5px;
+    background-color:#aaaaaa;
 }
 
 .cardProductos {
@@ -22,12 +10,19 @@ img {
     justify-content: center;
 }
 
+
+.cardBody {
+    background-color:#f8f9fa ;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+img {
+    margin-top: 3px;
+}
+
+
 .itemDetail {
     max-width: 540px;
     margin-top: 20px;
-}
-.ItemListCont{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
 }
