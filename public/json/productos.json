@@ -2,10 +2,10 @@
     {
         "id": 1,
         "idCategoria": "Tortas-clasicas",
-        "nombre": "Chesecake",              
+        "nombre": "Cheesecake",              
         "precio": 10000,
         "stock": 30,
-        "img": "cheesecake-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/cheesecake-cuad.jpeg?alt=media&token=f00489a6-2fcf-4ff2-978b-d05aed676636"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "nombre": "Letter-Cake",
         "precio": 12000,
         "stock": 20,
-        "img": "letter-C-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/letter-C-cuad.jpeg?alt=media&token=8b596497-58a2-4813-8eb7-1f9dfae2f587"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "nombre": "Torta con golosinas",
         "precio": 17000,
         "stock": 15,
-        "img": "Torta con golosinas-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/Torta%20con%20golosinas-cuad.jpeg?alt=media&token=cb1fc465-e451-400d-a641-9a837342967b"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "nombre": "Pabloba ",
         "precio": 8000,
         "stock": 30,
-        "img": "pabloba-tiny-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/pabloba-tiny-cuad.jpeg?alt=media&token=dac04bfc-a8bb-4e11-9133-76e0897fc224"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "nombre": "Brownie ",
         "precio": 8000,
         "stock": 30,
-        "img": "brownie-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/Brownie-cuad.jpeg?alt=media&token=86e71f74-2fb5-4c58-a870-2251871ca0ac"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "nombre": "Torre ",
         "precio": 18000,
         "stock": 20,
-        "img": "torre-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/Torre-cuad.jpeg?alt=media&token=3f56eb23-ea6e-437f-ad46-f380f49bb488"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "nombre": "Alfajores ",
         "precio": 300,
         "stock": 100,
-        "img": "alfajores-2-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/alfajores-2-cuad.jpeg?alt=media&token=2f3bc4e8-2bbb-4db2-b410-7351bcd361ec"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "nombre": "Conos",
         "precio": 250,
         "stock": 100,
-        "img": "mini-conos-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/mini-conos-cuad.jpeg?alt=media&token=d18db72e-f868-4bc9-8359-0fcd4ce6cc98"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "nombre": "Lemon Pie",
         "precio": 450,
         "stock": 100,
-        "img": "ind-lemon-pie-1-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/ind-lemon-pie-1-cuad.jpeg?alt=media&token=7346389c-75e1-46d4-b209-6e1f5e10796d"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "nombre": "Box Oro",
         "precio": 1450,
         "stock": 10,
-        "img": "box-3-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/box-3-cuad.jpeg?alt=media&token=6ca415ca-0a09-4e63-aa2d-82deeef93393"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "nombre": "Box Plata",
         "precio": 1600,
         "stock": 10,
-        "img": "box-4-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/box-4-cuad.jpeg?alt=media&token=0e7096d6-9ab3-4256-8955-6647aa37ab10"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "nombre": "Box Bronce",
         "precio": 2000,
         "stock": 10,
-        "img": "box-5-cuad.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/anabella-jazmin.appspot.com/o/box-5-cuad.jpeg?alt=media&token=ed0cc027-1913-4068-acbe-6c0117108d51"
     }
 
 ]

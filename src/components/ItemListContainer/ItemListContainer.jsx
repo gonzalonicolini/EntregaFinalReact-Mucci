@@ -4,6 +4,8 @@ import { useParams } from 'react-router-dom'
 import { ItemList } from '../ItemList/ItemList'
 //Context
 import { useDarkModeContext } from '../../context/DarkModeContext'
+//Firebase
+import { getProductos } from '../../firebase/firebase'
 
 export const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
@@ -14,21 +16,17 @@ export const ItemListContainer = () => {
     useEffect(() => {
         if(idCategoria) { //consulta si existe ese idCategoria, si no existe, se queda en itemlistcontainer
             //si existe idCategoria, filtra en funcion de eso.
-            fetch('../json/productos.json')
-            .then(response => response.json())
+            getProductos()            
             .then(items => {
                 const products = items.filter(prod => prod.idCategoria === idCategoria)
-                const productsList = ItemList({products}) //Array de productos en JSX
-                console.log(productsList)
+                const productsList = <ItemList products={products} plantilla={'item'}/> //Array de productos en JSX
                 setProductos(productsList)
             })
         } else {
-            fetch('./json/productos.json')
-            .then(response => response.json())
-            .then(products => {
-                console.log(products)
-                const productsList = ItemList({products}) //Array de productos en JSX
-                console.log(productsList)
+            getProductos()
+            .then(items => {
+                const products = items.filter(prod => prod.stock > 0)
+                const productsList = <ItemList products={products} plantilla={'item'}/> //Array de productos en JSX
                 setProductos(productsList)
             })
         }

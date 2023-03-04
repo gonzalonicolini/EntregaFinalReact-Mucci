@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/publc/json/productos.json
 # testing
 /coverage
 
