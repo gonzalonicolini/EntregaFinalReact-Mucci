@@ -21,5 +21,3 @@ export const DarkModeProvider = (props) => { //Defino mi proveedor del contexto
         </DarkModeContext.Provider>
     )
 }
-
-//export {useDarkModeContext, DarkModeProvider}
