@@ -6,29 +6,33 @@ export const Contacto = () => {
     const datosFormulario = React.useRef() //Creo la referencia
     let navigate = useNavigate() //Ubicacion actual de mi componente
     const consultarFormulario = (e) => {
-        e.preventDefault()
-        //console.log(datosFormulario.current) //Consulto el estado actual del formulario
+        e.preventDefault()        
         const datForm = new FormData(datosFormulario.current) //Genero un objeto iterator 8objeto qe mediante una oteracion devuelve cada uno de los datos) de esos datos
-        const contacto = Object.fromEntries(datForm) //Recibe como parametro un objeto iterator y devulve un objeto => Transforma en un objeto literal
-    
+        const contacto = Object.fromEntries(datForm) //Recibe como parametro un objeto iterator y devulve un objeto => Transforma en un objeto literal    
         e.target.reset() //Reseteo el formulario
         toast.success("Gracias por contactarse con nosotros")
         navigate("/")//Redirijo a pagina inicial
     }
+
+
   return (
-    <div className="container" style={{marginTop:"20px"}}>
+    <div className="container">
         <form onSubmit={consultarFormulario} ref={datosFormulario}>
         <div className="mb-3">
             <label htmlFor="nombre" className="form-label">Nombre y apellido</label>
-            <input type="text" className="form-control" name="nombre"/>
+            <input required type="text" className="form-control" name="nombre"/>
         </div>
         <div className="mb-3">
             <label htmlFor="email" className="form-label">Email</label>
-            <input type="email" className="form-control" name="email" />
+            <input required type="email" className="form-control" name="email" />
         </div>
         <div className="mb-3">
+                <label htmlFor="repEmail" className="form-label">Repetir Email</label>
+                <input required type="email" className="form-control" name="repEmail" />
+            </div>
+        <div className="mb-3">
             <label htmlFor="celular" className="form-label">Numero telefonico</label>
-            <input type="number" className="form-control" name="celular" />
+            <input required type="number" className="form-control" name="celular" />
         </div>
         <div className="mb-3">
             <label htmlFor="consulta" className="form-label">Consulta</label>
@@ -39,5 +43,7 @@ export const Contacto = () => {
         </form>
     </div>
     
+    
+
   )
 }

@@ -9,6 +9,7 @@ export const Checkout = () => {
     const {carrito, emptyCart, totalPrice} = useCarritoContext()
     const datosFormulario = React.useRef()
     let navigate = useNavigate()
+  
 
     const consultarFormulario = (e) => {
         e.preventDefault()
@@ -17,6 +18,7 @@ export const Checkout = () => {
         
         const aux = [...carrito]
 
+       
         aux.forEach(prodCarrito => {
             getProducto(prodCarrito.id).then(prodBDD => {
                 prodBDD.stock -= prodCarrito.cant //Descuento del stock la cantidad comprada
@@ -30,10 +32,10 @@ export const Checkout = () => {
             emptyCart()
             e.target.reset()
             navigate("/")
-        })
-
+        })    
+             
     }
-
+   
 
    return (
     <>

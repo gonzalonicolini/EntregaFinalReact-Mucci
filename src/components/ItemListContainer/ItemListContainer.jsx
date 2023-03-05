@@ -11,7 +11,6 @@ export const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     const {idCategoria} = useParams() //consulta los parametros de la app
     const {darkMode} = useDarkModeContext()
-    console.log(darkMode)
 
     useEffect(() => {
         if(idCategoria) { //consulta si existe ese idCategoria, si no existe, se queda en itemlistcontainer
