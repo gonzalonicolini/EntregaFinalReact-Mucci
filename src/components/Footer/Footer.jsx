@@ -10,9 +10,9 @@ export const Footer = () =>{
                 <h4>¡Seguinos en nuestras redes!</h4>
                 <br></br>
                 <ul>                                        
-                    <li> <FontAwesomeIcon icon={faInstagram} /> Instagram</li>
-                    <li> <FontAwesomeIcon icon={faFacebook} /> Facebook</li>                 
-                    <li>  <FontAwesomeIcon icon={faWhatsapp}/> Whatsapp</li>
+                    <li> <FontAwesomeIcon icon={faInstagram} />  Instagram</li>
+                    <li> <FontAwesomeIcon icon={faFacebook} />  Facebook</li>                 
+                    <li>  <FontAwesomeIcon icon={faWhatsapp}/>  Whatsapp</li>
                     <br></br>
                     <h6>Desarrollado por Mauro Mucci</h6>
                 </ul>                   

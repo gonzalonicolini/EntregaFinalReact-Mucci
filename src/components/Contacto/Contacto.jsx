@@ -7,10 +7,10 @@ export const Contacto = () => {
     let navigate = useNavigate() //Ubicacion actual de mi componente
     const consultarFormulario = (e) => {
         e.preventDefault()
-        console.log(datosFormulario.current) //Consulto el estado actual del formulario
+        //console.log(datosFormulario.current) //Consulto el estado actual del formulario
         const datForm = new FormData(datosFormulario.current) //Genero un objeto iterator 8objeto qe mediante una oteracion devuelve cada uno de los datos) de esos datos
         const contacto = Object.fromEntries(datForm) //Recibe como parametro un objeto iterator y devulve un objeto => Transforma en un objeto literal
-        console.log(contacto)
+    
         e.target.reset() //Reseteo el formulario
         toast.success("Gracias por contactarse con nosotros")
         navigate("/")//Redirijo a pagina inicial

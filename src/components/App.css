@@ -21,10 +21,21 @@ img {
     margin-top: 3px;
 }
 
+.checkoutVacio{
+    min-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
 
 .itemDetail {
     max-width: 540px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .itemDetailBodyDark{
@@ -34,7 +45,7 @@ img {
 
 .darkMode{
     background-color: black;
-    color: black;
+    color: white;
 }
 
 .cardBodyDark {
@@ -62,8 +73,10 @@ img {
     font-size: x-large;
     margin:10px
 }
-
-.carritoVacio{
+form{
+    margin: 20px;
+}
+.divCarritoVacio{
     display: flex;
     flex-direction: column;
     justify-content: space-around;

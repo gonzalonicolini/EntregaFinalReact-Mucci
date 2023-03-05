@@ -29,7 +29,7 @@ const App = () => {
   //getProducts()
   return (
     <>
-
+      
       <BrowserRouter>  
         <CarritoProvider>
           <DarkModeProvider>

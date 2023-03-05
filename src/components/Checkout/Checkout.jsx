@@ -39,12 +39,12 @@ export const Checkout = () => {
     <>
         {carrito.length === 0 
          ? 
-          <>
+          <div className="checkoutVacio">
                 <h2>No posee productos en el carrito</h2>
                 <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar comprando</button></Link> 
-          </>
+          </div>
           :
-            <div className="container" style={{marginTop:"20px"}}>
+            <div className="container" >
             <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
                 <label htmlFor="nombre" className="form-label">Nombre y apellido</label>

@@ -9,7 +9,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCBHyGZa8PEID6pC8BxyGl68sDtcmUCm1Q",
+  apiKey: process.env.API_KEY,
   authDomain: "anabella-jazmin.firebaseapp.com",
   projectId: "anabella-jazmin",
   storageBucket: "anabella-jazmin.appspot.com",
