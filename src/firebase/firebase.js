@@ -60,8 +60,8 @@ export const updateProducto = async(id, info) => {
 export const deleteProducto = async(id) => {
   await deleteDoc(doc(db, "productos", id))
 }
-/*
-//Create orden Compra
+
+//Create orden de Compra
 
 export const createOrdenCompra = async(cliente, productos,precioTotal, fecha) => {
   const ordenCompra = await addDoc(collection(db, "ordenCompra"), {
@@ -79,4 +79,3 @@ export const getOrdenCompra = async(id) => {
   return oCompra
 }
 
-*/

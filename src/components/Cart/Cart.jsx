@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom"
+import { useCarritoContext } from "../../context/CarritoContext"
 import { ItemList } from "../ItemList/ItemList"
 export const Cart = () => {
-    const carrito = [
-        {id: 1, nombre: "Arroz", modelo: "1", img: 'alfajores-2-cuad.jpeg', precio: 400, cantidad: 5 },
-        {id: 2,nombre: "Fideos", modelo: "2", img: 'box-3-cuad.jpeg',precio: 300, cantidad: 2 },
-        {id: 3,nombre: "Manteca", modelo: "3",img: 'box-4-cuad.jpeg',precio: 500, cantidad: 3 },
-    ]
+    const {carrito,totalPrice,emptyCart} = useCarritoContext()
+           
     return(
         <>
             { carrito.length === 0 
@@ -15,17 +13,15 @@ export const Cart = () => {
                     <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar comprando</button></Link> 
                 </>
               : //Si carrito tiene productos
-                <div className="container cartContainer">
-                    {
-                        <ItemList products={carrito} plantilla={'itemCart'}/>
-                    }
-                    <div className="divButtons">
-                        <p>Resumen de la compra: precio total</p>
-                        <button className="btn btn-danger">Vaciar carrito</button>
-                        <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar Comprando</button></Link> 
-                        <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar compra</button></Link> 
-                    </div>
-                </div>
+              <div className="container cartContainer">
+                  {<ItemList products={carrito} plantilla={'itemCart'}/>}
+                  <div className="divButtons">
+                      <p>Resumen de la compra: $ {new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
+                      <button className="btn btn-danger" onClick={() => emptyCart()}>Vaciar carrito</button>
+                      <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar Comprando</button></Link> 
+                      <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar compra</button></Link> 
+                  </div>
+              </div>
             }
         </>
     )

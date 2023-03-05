@@ -56,3 +56,9 @@ img {
 .cardCart {
     max-width: 640px;
 }
+
+.cantCarrito{
+    color:white;
+    font-size: x-large;
+    margin:10px
+}
