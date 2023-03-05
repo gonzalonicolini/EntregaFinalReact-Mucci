@@ -16,6 +16,7 @@ import { ItemDetailContainer } from './ItemDetailContainer/ItemDetailContainer';
 import { Contacto } from './Contacto/Contacto';
 import { Cart } from './Cart/Cart';
 import { Checkout } from './Checkout/Checkout';
+import { Footer } from './Footer/Footer';
 
 //Context
 import { DarkModeProvider } from '../context/DarkModeContext';
@@ -47,7 +48,7 @@ const App = () => {
           </DarkModeProvider>
         </CarritoProvider>
       </BrowserRouter>    
-
+      <Footer/>
     </>
   );
 }

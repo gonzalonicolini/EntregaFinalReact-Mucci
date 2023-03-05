@@ -1,7 +1,7 @@
 .cardProducto {
     width: 18rem;
     margin: 4px;
-    background-color:#aaaaaa;
+    background-color:whitesmoke;
 }
 
 .cardProductos {
@@ -62,3 +62,17 @@ img {
     font-size: x-large;
     margin:10px
 }
+
+.carritoVacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+}
+
+footer{
+    background-color: #eb6864;
+}
+
+ul{list-style: none;}

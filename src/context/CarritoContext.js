@@ -26,11 +26,7 @@ export const CarritoProvider = (props) => {
                 ...producto, 
                 cant: cantidad
             }
-            /*
-                const aux = [...carrito]
-                aux.push(prodCart)
-                setCarrito(aux)
-            */
+           
             setCarrito([...carrito, prodCart])
 
         }
