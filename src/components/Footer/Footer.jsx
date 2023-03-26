@@ -14,7 +14,7 @@ export const Footer = () =>{
                     <li> <FontAwesomeIcon icon={faFacebook} />  Facebook</li>                 
                     <li>  <FontAwesomeIcon icon={faWhatsapp}/>  Whatsapp</li>
                     <br></br>
-                    <h6>Desarrollado por Mauro Mucci</h6>
+                    <h6>Desarrollado por Gonzalo Nicolini</h6>
                 </ul>                   
             </div>       
 
